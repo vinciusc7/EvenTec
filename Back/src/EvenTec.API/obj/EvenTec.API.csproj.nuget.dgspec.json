@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\back\\src\\eventec.api\\EvenTec.API.csproj": {}
+    "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\Back\\src\\EvenTec.API\\EvenTec.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\back\\src\\eventec.api\\EvenTec.API.csproj": {
+    "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\Back\\src\\EvenTec.API\\EvenTec.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\back\\src\\eventec.api\\EvenTec.API.csproj",
+        "projectUniqueName": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\Back\\src\\EvenTec.API\\EvenTec.API.csproj",
         "projectName": "EvenTec.API",
-        "projectPath": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\back\\src\\eventec.api\\EvenTec.API.csproj",
+        "projectPath": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\Back\\src\\EvenTec.API\\EvenTec.API.csproj",
         "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\back\\src\\eventec.api\\obj\\",
+        "outputPath": "C:\\Users\\HOME\\Desktop\\VINI\\EvenTec\\Back\\src\\EvenTec.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config"

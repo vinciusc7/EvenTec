@@ -50,6 +50,10 @@ namespace EvenTec.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(acces => acces.AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      .AllowAnyOrigin()
+            );
 
             app.UseAuthorization();
 
