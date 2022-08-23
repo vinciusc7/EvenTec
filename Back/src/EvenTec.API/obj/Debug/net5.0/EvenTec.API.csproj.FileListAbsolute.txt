@@ -55,3 +55,9 @@ C:\Users\HOME\Desktop\VINI\EvenTec\Back\src\EvenTec.API\bin\Debug\net5.0\runtime
 C:\Users\HOME\Desktop\VINI\EvenTec\Back\src\EvenTec.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\HOME\Desktop\VINI\EvenTec\Back\src\EvenTec.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\HOME\Desktop\VINI\EvenTec\Back\src\EvenTec.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Application.dll
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Domain.dll
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Persistence.dll
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Application.pdb
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Domain.pdb
+C:\Users\HOME\Desktop\VINI\EvenTec\back\src\Eventec.API\bin\Debug\net5.0\Eventec.Persistence.pdb

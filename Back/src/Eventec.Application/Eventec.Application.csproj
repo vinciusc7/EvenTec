@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eventec.Domain\Eventec.Domain.csproj" />
+    <ProjectReference Include="..\Eventec.Persistence\Eventec.Persistence.csproj" />
+  </ItemGroup>
+</Project>

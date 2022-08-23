@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EvenTec.API.Models;
+using EvenTec.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using EvenTec.API.Data;
+using EvenTec.Domain;
 namespace EvenTec.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class EventoController : ControllerBase
     {
-        private readonly DataContext _context;
-        public EventoController(DataContext context)
+        private readonly EventecContext _context;
+        public EventoController(EventecContext context)
         {
             _context = context;
         }
@@ -26,7 +26,7 @@ namespace EvenTec.API.Controllers
         [HttpGet("{id}")]
         public Evento GetById(int id)
         {
-            return _context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
+            return _context.Eventos.FirstOrDefault(evento => evento.Id == id);
         }
         [HttpPost]
         public string Post()

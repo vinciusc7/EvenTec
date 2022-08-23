@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "EvenTec.API/1.0.0": {
         "dependencies": {
+          "Eventec.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.2",
@@ -333,6 +334,9 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        },
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -702,6 +706,39 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "Eventec.Application/1.0.0": {
+        "dependencies": {
+          "Eventec.Domain": "1.0.0",
+          "Eventec.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "Eventec.Application.dll": {}
+        },
+        "compile": {
+          "Eventec.Application.dll": {}
+        }
+      },
+      "Eventec.Domain/1.0.0": {
+        "runtime": {
+          "Eventec.Domain.dll": {}
+        },
+        "compile": {
+          "Eventec.Domain.dll": {}
+        }
+      },
+      "Eventec.Persistence/1.0.0": {
+        "dependencies": {
+          "Eventec.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.2",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.2"
+        },
+        "runtime": {
+          "Eventec.Persistence.dll": {}
+        },
+        "compile": {
+          "Eventec.Persistence.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2647,6 +2684,21 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "Eventec.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventec.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventec.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",
