@@ -17,6 +17,7 @@ namespace EvenTec.API.Controllers
         {
             _context = context;
         }
+        
         [HttpGet]
         public IEnumerable<Evento> Get()
         {
