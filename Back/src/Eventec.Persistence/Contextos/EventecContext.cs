@@ -1,8 +1,9 @@
+using System;
 using Eventec.Domain;
 using EvenTec.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace EvenTec.Persistence
+namespace EvenTec.Persistence.Contextos
 {
     public class EventecContext : DbContext
     {
@@ -17,6 +18,11 @@ namespace EvenTec.Persistence
         {
             modelBuilder.Entity<PalestranteEvento>()
                 .HasKey(PE => new {PE.EventoID, PE.PalestranteID});
+        }
+
+        internal void RemoveRange(object entityArray)
+        {
+            throw new NotImplementedException();
         }
     }
 }

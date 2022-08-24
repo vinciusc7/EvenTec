@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using EvenTec.Persistence;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using EvenTec.Domain;
+using EvenTec.Persistence.Contextos;
+
 namespace EvenTec.API.Controllers
 {
     [ApiController]
